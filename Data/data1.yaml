@@ -1,0 +1,51 @@
+# yaml中的数据，英文冒号后面必须加空格
+# 区分大小写
+
+# : 表示字典
+# name: "lili"
+# Name: "haha"
+
+# 对象---第一种写法
+#info: {"name":"lili", "age":"18"}
+
+# 对象---第二种写法
+#info1:
+#  name: "lili"
+#  age: "18"
+
+#  ----列表，yaml数组，   - 代表列表
+#data:
+#  - "lili"
+#  - "女"
+# python 列表
+#data1: ["feifei","男"]
+
+# json格式{"info":[{"name",""张三},{"name","李四"}]}
+#info:
+#  - name: "张三"
+#  - name: "李四"
+
+# ----字符串---
+# name: "lili"
+#name_str: lili      # 自动转化数据类型
+
+# ---整数 浮点数---
+#int_value: 222
+#float_value: 12.0001
+
+# ---布尔值---  默认是true
+# yaml布尔值
+#bool: true
+#bool02: false
+
+# yaml的 空None
+#value1:
+# 也支持js shell java
+#value2: Null
+
+# ----日期类型--
+#date1: 2020-11-11 11:11:11   # 返回datetime.datetime
+#date2: 2020-11-11           # 返回datetime.date
+#date3: 11:11:11        # 返回int类型
+#date5: 2020-11-11 01:01:01      # 个位数记得补0
+#date6: 2020-01-01

@@ -1,0 +1,11 @@
+本目录下为点击手机设置页面的搜索按钮进行搜索，以及显示里修改字体格式的po模式自动化代码
+参考G:\百度网盘学习资料\学习教案重点\上课视频笔记\app移动测试\app移动测试08\笔记
+
+Data/data1.yaml  :是yaml数据类型   yaml和yml都是一样的数据yaml
+readYaml.py  ：把yaml数据输出到py文件中
+
+Data/data2.yml  : 锚点的介绍，类似复制
+
+writeYaml.py  : 把数据写入到yaml文件中
+test_sum.py  :# 计算判断两数和，通过调用封装的数据驱动的方式,与sum,yaml配合
+getData.py  ：封装打开加载yaml数据的方法
